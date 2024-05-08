@@ -1,0 +1,16 @@
+torch       
+torch-geometric 
+torch-scatter 
+torch-sparse
+torchaudio
+torchvision
+tqdm
+scikit-learn
+scipy
+pyrkhsstats
+pandas
+numpy
+networkx
+matplotlib
+matplotlib-base
+matplotlib-inline

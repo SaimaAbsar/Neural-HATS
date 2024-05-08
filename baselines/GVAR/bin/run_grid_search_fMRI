@@ -1,0 +1,14 @@
+export PYTHONPATH="${PYTHONPATH}:../"
+
+python run_grid_search_modified.py  \
+  --experiment fmri                 \
+  --model gvar                      \
+  --num-sim 1                       \
+  --K 1                             \
+  --num-hidden-layers 1             \
+  --hidden-layer-size 50            \
+  --num-epochs 1000                 \
+  --batch-size 256                   \
+  --initial-lr 0.0001               \
+  --seed 42                   \ 
+  --graph '../../Data/A_6_ER_new.npy'
