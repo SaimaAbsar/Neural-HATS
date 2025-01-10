@@ -1,6 +1,6 @@
 # Neural-HATS
 
-This repository is the implementation of the paper: “Neural Time-invariant Causal Discovery from Time Series Data." 
+This repository is the implementation of the paper: “Neural-HATS: Neural Hybrid Approach for Time Series Causal Discovery" 
 
 ## Overview
 
@@ -36,3 +36,6 @@ This repository is the implementation of the paper: “Neural Time-invariant Cau
             > - $ cd baselines/NTS_NOTEARS/notears
             > - (Update the paths in the run.sh file) 
             > - $bash run.sh
+
+## Reference:
+Saima Absar, Wen Huang, Yongkai Wu, Lu Zhang, "Neural-HATS: Neural Hybrid Approach for Time Series Causal Discovery", AAAI'25 Workshop, AI4TS: AI for Time Series Analysis.
