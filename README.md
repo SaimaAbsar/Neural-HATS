@@ -1,6 +1,6 @@
 # Neural-HATS
 
-This repository is the implementation of the paper: “Neural-HATS: Neural Hybrid Approach for Time Series Causal Discovery" 
+This repository is the implementation of the paper: “[Neural-HATS: Neural Hybrid Approach for Time Series Causal Discovery](https://par.nsf.gov/biblio/10579073)" 
 
 ## Overview
 
@@ -10,6 +10,9 @@ This repository is the implementation of the paper: “Neural-HATS: Neural Hybri
 - The hybrid baseline methods are provided in individual directories, each of them requiring their own environments and settings to run
 
 ## Usage
+- Clone the repository from GitHub and navigate into the project directory. Replace my-project with your preferred folder name:
+    > - git clone https://github.com/SaimaAbsar/NTiCD.git
+    > - cd my-project
 
 - To generate CI matrix: 
     > - $cd CI_tests 
@@ -37,5 +40,18 @@ This repository is the implementation of the paper: “Neural-HATS: Neural Hybri
             > - (Update the paths in the run.sh file) 
             > - $bash run.sh
 
-## Reference:
-Saima Absar, Wen Huang, Yongkai Wu, Lu Zhang, "Neural-HATS: Neural Hybrid Approach for Time Series Causal Discovery", AAAI'25 Workshop, AI4TS: AI for Time Series Analysis.
+
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{osti_10579073,
+  place       = {Country unknown/Code not available},
+  title       = {Neural-HATS: Neural Hybrid Approach for Time Series Causal Discovery},
+  url         = {https://par.nsf.gov/biblio/10579073},
+  abstractNote= {},
+  journal     = {},
+  publisher   = {AAAI'25 Workshop on Artificial Intelligence for Time Series Analysis (AI4TS)},
+  author      = {Absar, Saima and Huang, Wen and Wu, Yongkai and Zhang, Lu},
+}
